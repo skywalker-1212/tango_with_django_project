@@ -22,7 +22,6 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
-
 class Page(models.Model):
     TITLE_MAX_LENGTH = 128
     URL_MAX_LENGTH = 200
