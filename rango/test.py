@@ -120,3 +120,4 @@ class Chapter10ViewTests(TestCase):
         response = self.client.get(reverse('rango:about'))
         self.assertIn('visits', response.context,
                       f"{FAILURE_HEADER}We couldn't find the 'visits' variable in the context dictionary for about(). Check your about() implementation.{FAILURE_FOOTER}")
+b
